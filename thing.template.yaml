@@ -1,0 +1,6 @@
+description: Test template
+hooks:
+    - nix-shell --command hpack
+    - lorri init
+    - direnv allow
+    - git init
