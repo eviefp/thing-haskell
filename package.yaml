@@ -21,32 +21,64 @@ description:         Please see the README on GitHub at <https://github.com/vlad
 dependencies:
 - base >= 4.7 && < 5
 
+# Last updated as of ghc-8.10.2
 default-extensions:
+  - ApplicativeDo
   - BangPatterns
+  - BinaryLiterals
+  - BlockArguments
   - ConstraintKinds
   - DataKinds
+  - DefaultSignatures
   - DeriveAnyClass
   - DeriveDataTypeable
+  - DeriveFoldable
+  - DeriveFunctor
   - DeriveGeneric
+  - DeriveLift
+  - DeriveTraversable
   - DerivingStrategies
+  - DerivingVia
+  - DuplicateRecordFields
+  - EmptyCase
   - EmptyDataDecls
+  - EmptyDataDeriving
+  - ExistentialQuantification
+  - ExplicitNamespaces
   - FlexibleContexts
   - FlexibleInstances
+  - FunctionalDependencies
   - GADTs
   - GeneralizedNewtypeDeriving
+  - ImportQualifiedPost
   - InstanceSigs
+  - KindSignatures
   - LambdaCase
   - MultiParamTypeClasses
+  - MultiWayIf
+  - NamedFieldPuns
+  - NamedWildCards
   - NoImplicitPrelude
   - NoMonomorphismRestriction
+  - NumericUnderscores
+  - OverlappingInstances
+  - OverloadedLabels
   - OverloadedStrings
+  - PatternSynonyms
+  - PolyKinds
+  - QualifiedConstraints
   - QuasiQuotes
   - RankNTypes
   - RecordWildCards
+  - RoleAnnotations
   - ScopedTypeVariables
+  - StandaloneDeriving
+  - StandaloneKindSignatures
   - TemplateHaskell
   - TupleSections
+  - TypeApplications
   - TypeFamilies
+  - TypeFamilyDependencies
   - TypeOperators
   - ViewPatterns
 

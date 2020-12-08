@@ -4,4 +4,4 @@ let
   pkgs = tooling.pkgs;
   gis = import sources.gitignore { inherit (pkgs) lib; };
 in
-  pkgs.haskell.packages.ghc883.callCabal2nix "{{name}}" (gis.gitignoreSource ./.) {}
+  pkgs.haskell.packages.ghc8102.callCabal2nix "{{name}}" (gis.gitignoreSource ./.) {}
