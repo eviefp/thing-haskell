@@ -1,7 +1,9 @@
-module Main where
+module Main
+  ( main
+  ) where
 
-import Prelude
-import Lib
+import qualified Lib
+import           Prelude
 
 main :: IO ()
-main = run
+main = Lib.run

@@ -1,4 +1,6 @@
-module Lib where
+module Lib
+  ( run
+  ) where
 
 import Prelude
 
